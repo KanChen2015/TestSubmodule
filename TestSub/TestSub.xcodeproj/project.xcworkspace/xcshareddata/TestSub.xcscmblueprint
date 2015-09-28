@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "996F5A08B1B8A107E5EF57C3CB212D1E10C81AD7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "996F5A08B1B8A107E5EF57C3CB212D1E10C81AD7" : 0,
+    "9A68EA65B42E563665B135D8FEB8D12B488211E1" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "ECE4D18F-794A-4CE9-A054-6FB04D1B0D21",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "996F5A08B1B8A107E5EF57C3CB212D1E10C81AD7" : "TestSubmodule\/",
+    "9A68EA65B42E563665B135D8FEB8D12B488211E1" : "TestSubmodule\/TestSub\/Subs\/Camera\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TestSub",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TestSub\/TestSub.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/KanChen2015\/TestSubmodule.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "996F5A08B1B8A107E5EF57C3CB212D1E10C81AD7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/KanChen2015\/DRCCamera.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9A68EA65B42E563665B135D8FEB8D12B488211E1"
+    }
+  ]
+}

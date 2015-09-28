@@ -1,0 +1,3 @@
+[submodule "TestSub/Subs/Camera"]
+	path = TestSub/Subs/Camera
+	url = https://github.com/KanChen2015/DRCCamera.git

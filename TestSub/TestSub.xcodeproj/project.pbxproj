@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E0F5CFE1BB9F5FD001924A2 /* DRCCameraSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0F5CFB1BB9F5D7001924A2 /* DRCCameraSwift.framework */; };
+		3E0F5CFF1BB9F5FD001924A2 /* DRCCameraSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0F5CFB1BB9F5D7001924A2 /* DRCCameraSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3EE87BC41BB9B04B00F0D4CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE87BC31BB9B04B00F0D4CE /* AppDelegate.swift */; };
 		3EE87BC61BB9B04B00F0D4CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE87BC51BB9B04B00F0D4CE /* ViewController.swift */; };
 		3EE87BC91BB9B04B00F0D4CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EE87BC71BB9B04B00F0D4CE /* Main.storyboard */; };
@@ -17,6 +19,48 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		3E0F5CF41BB9F5D7001924A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E0F5CEC1BB9F5D6001924A2 /* DRCCamera.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3ECC6F851BB9A82F00E5BE7A;
+			remoteInfo = DRCCamera;
+		};
+		3E0F5CF61BB9F5D7001924A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E0F5CEC1BB9F5D6001924A2 /* DRCCamera.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3ECC6F991BB9A82F00E5BE7A;
+			remoteInfo = DRCCameraTests;
+		};
+		3E0F5CF81BB9F5D7001924A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E0F5CEC1BB9F5D6001924A2 /* DRCCamera.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3ECC6FA41BB9A82F00E5BE7A;
+			remoteInfo = DRCCameraUITests;
+		};
+		3E0F5CFA1BB9F5D7001924A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E0F5CEC1BB9F5D6001924A2 /* DRCCamera.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3EE87C331BB9C15B00F0D4CE;
+			remoteInfo = DRCCameraSwift;
+		};
+		3E0F5CFC1BB9F5D7001924A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E0F5CEC1BB9F5D6001924A2 /* DRCCamera.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3EE87C3C1BB9C15B00F0D4CE;
+			remoteInfo = DRCCameraSwiftTests;
+		};
+		3E0F5D001BB9F5FE001924A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E0F5CEC1BB9F5D6001924A2 /* DRCCamera.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EE87C321BB9C15B00F0D4CE;
+			remoteInfo = DRCCameraSwift;
+		};
 		3EE87BD51BB9B04B00F0D4CE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3EE87BB81BB9B04B00F0D4CE /* Project object */;
@@ -33,7 +77,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3E0F5D021BB9F5FE001924A2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3E0F5CFF1BB9F5FD001924A2 /* DRCCameraSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		3E0F5CEC1BB9F5D6001924A2 /* DRCCamera.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DRCCamera.xcodeproj; path = Subs/Camera/DRCCamera/DRCCamera.xcodeproj; sourceTree = SOURCE_ROOT; };
 		3EE87BC01BB9B04B00F0D4CE /* TestSub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EE87BC31BB9B04B00F0D4CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EE87BC51BB9B04B00F0D4CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E0F5CFE1BB9F5FD001924A2 /* DRCCameraSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +134,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E0F5CED1BB9F5D6001924A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E0F5CF51BB9F5D7001924A2 /* DRCCamera.app */,
+				3E0F5CF71BB9F5D7001924A2 /* DRCCameraTests.xctest */,
+				3E0F5CF91BB9F5D7001924A2 /* DRCCameraUITests.xctest */,
+				3E0F5CFB1BB9F5D7001924A2 /* DRCCameraSwift.framework */,
+				3E0F5CFD1BB9F5D7001924A2 /* DRCCameraSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		3EE87BB71BB9B04B00F0D4CE = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +169,7 @@
 		3EE87BC21BB9B04B00F0D4CE /* TestSub */ = {
 			isa = PBXGroup;
 			children = (
+				3E0F5CEC1BB9F5D6001924A2 /* DRCCamera.xcodeproj */,
 				3EE87BC31BB9B04B00F0D4CE /* AppDelegate.swift */,
 				3EE87BC51BB9B04B00F0D4CE /* ViewController.swift */,
 				3EE87BC71BB9B04B00F0D4CE /* Main.storyboard */,
@@ -135,10 +208,12 @@
 				3EE87BBC1BB9B04B00F0D4CE /* Sources */,
 				3EE87BBD1BB9B04B00F0D4CE /* Frameworks */,
 				3EE87BBE1BB9B04B00F0D4CE /* Resources */,
+				3E0F5D021BB9F5FE001924A2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3E0F5D011BB9F5FE001924A2 /* PBXTargetDependency */,
 			);
 			name = TestSub;
 			productName = TestSub;
@@ -214,6 +289,12 @@
 			mainGroup = 3EE87BB71BB9B04B00F0D4CE;
 			productRefGroup = 3EE87BC11BB9B04B00F0D4CE /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3E0F5CED1BB9F5D6001924A2 /* Products */;
+					ProjectRef = 3E0F5CEC1BB9F5D6001924A2 /* DRCCamera.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				3EE87BBF1BB9B04B00F0D4CE /* TestSub */,
@@ -222,6 +303,44 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3E0F5CF51BB9F5D7001924A2 /* DRCCamera.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = DRCCamera.app;
+			remoteRef = 3E0F5CF41BB9F5D7001924A2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3E0F5CF71BB9F5D7001924A2 /* DRCCameraTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = DRCCameraTests.xctest;
+			remoteRef = 3E0F5CF61BB9F5D7001924A2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3E0F5CF91BB9F5D7001924A2 /* DRCCameraUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = DRCCameraUITests.xctest;
+			remoteRef = 3E0F5CF81BB9F5D7001924A2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3E0F5CFB1BB9F5D7001924A2 /* DRCCameraSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DRCCameraSwift.framework;
+			remoteRef = 3E0F5CFA1BB9F5D7001924A2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3E0F5CFD1BB9F5D7001924A2 /* DRCCameraSwiftTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = DRCCameraSwiftTests.xctest;
+			remoteRef = 3E0F5CFC1BB9F5D7001924A2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		3EE87BBE1BB9B04B00F0D4CE /* Resources */ = {
@@ -279,6 +398,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		3E0F5D011BB9F5FE001924A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DRCCameraSwift;
+			targetProxy = 3E0F5D001BB9F5FE001924A2 /* PBXContainerItemProxy */;
+		};
 		3EE87BD61BB9B04B00F0D4CE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 3EE87BBF1BB9B04B00F0D4CE /* TestSub */;
@@ -398,6 +522,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = TestSub/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = drchrono.TestSub;
@@ -409,6 +534,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = TestSub/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = drchrono.TestSub;
@@ -483,6 +609,7 @@
 				3EE87BEA1BB9B04B00F0D4CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3EE87BEB1BB9B04B00F0D4CE /* Build configuration list for PBXNativeTarget "TestSubTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +618,7 @@
 				3EE87BED1BB9B04B00F0D4CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3EE87BEE1BB9B04B00F0D4CE /* Build configuration list for PBXNativeTarget "TestSubUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +627,7 @@
 				3EE87BF01BB9B04B00F0D4CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,8 +7,10 @@
 //
 
 import UIKit
+import DRCCameraSwift
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,DRCCustomImagePickerControllerDelegate {
+    @IBOutlet var qqqq: UIImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,5 +23,15 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func aaa(sender: AnyObject) {
+        let vv = DRCCustomImagePickerController()
+        vv.customDelegate = self
+        vv.showImagePicker(inViewController: self)
+        
+    }
+    
+    func customImagePickerDidFinishPickingImage(rectImage: UIImage) {
+        qqqq.image = rectImage
+    }
 }
 
